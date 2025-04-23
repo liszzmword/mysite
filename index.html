@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이인섭 - 자기소개</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">이인섭</div>
+            <ul class="nav-links">
+                <li><a href="#about">소개</a></li>
+                <li><a href="#skills">기술</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <h1>안녕하세요, 이인섭입니다</h1>
+                <p>인공지능을 공부하는 열정적인 개발자입니다</p>
+                <button class="cta-button">자세히 알아보기</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>소개</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>저는 이인섭입니다. 현재 인공지능을 공부하고 있으며, 새로운 기술과 지식을 배우는 것을 좋아합니다.</p>
+                        <p>인공지능 분야에서의 연구와 개발에 큰 관심을 가지고 있으며, 특히 머신러닝과 딥러닝 기술을 활용한 프로젝트에 참여하고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>기술 스택</h2>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-icon">🤖</div>
+                        <h3>인공지능</h3>
+                        <p>머신러닝, 딥러닝, 자연어 처리</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">💻</div>
+                        <h3>프로그래밍</h3>
+                        <p>Python, TensorFlow, PyTorch</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">📊</div>
+                        <h3>데이터 분석</h3>
+                        <p>데이터 전처리, 시각화, 모델링</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>연락처</h2>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">이름</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">이메일</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">메시지</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">보내기</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 이인섭. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
